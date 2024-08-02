@@ -1,0 +1,13 @@
+:root {
+    --lines-color: red;
+    --bg-color: green;
+}
+
+.div-element {
+    width: 350px;
+    height: 220px;
+    padding: 15px, 10px, 20px;
+    margin: 30px;
+    border: 2px dashed var(--lines-color);
+    background-color: var(--bg-color);
+}
